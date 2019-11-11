@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorSecondary"
+    tools:context=".DangnhapActivity">
+
+    <TextView
+        android:layout_margin="64dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Xinchao"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="50dp">
+
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:textColorHint="@color/colorPrimaryDark">
+
+    <EditText
+        android:paddingLeft="20dp"
+        android:background="@drawable/button_bo2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/mail"/>
+
+</com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+
+        <EditText
+            android:paddingTop="10dp"
+            android:textSize="30dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/button_bo2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/matkhau"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:onClick="manhinhchinh"
+        android:textColor="@color/text"
+        android:textSize="20dp"
+        android:layout_margin="40dp"
+        android:text="@string/login"
+        android:background="@drawable/button_bo3"
+        android:layout_width="150dp"
+        android:layout_height="50dp">
+
+    </Button>
+
+</LinearLayout>

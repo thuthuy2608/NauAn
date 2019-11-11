@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorSecondary"
+    tools:context=".ManhinhchinhActivity">
+
+   <GridLayout
+       android:columnCount="2"
+       android:rowCount="3"
+       android:alignmentMode="alignMargins"
+       android:columnOrderPreserved="false"
+       android:padding="8dp"
+       android:layout_weight="8"
+       android:layout_width="match_parent"
+       android:layout_height="0dp">
+
+       <androidx.cardview.widget.CardView
+
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="8dp"
+           android:layout_margin="8dp"
+           android:layout_width="0dp"
+           android:layout_height="0dp">
+           <LinearLayout
+
+               android:layout_gravity="center_horizontal|clip_vertical"
+               android:layout_margin="8dp"
+               android:orientation="vertical"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+               <ImageView
+                   android:src="@drawable/phap"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:layout_marginLeft="20dp"
+                   android:textSize="18dp"
+                   android:textColor="@color/colorPrimaryDark"
+                   android:textAlignment="center"
+                   android:text="Món Pháp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+           </LinearLayout>
+       </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="8dp"
+           android:layout_margin="8dp"
+           android:layout_width="0dp"
+           android:layout_height="0dp">
+           <LinearLayout
+               android:layout_gravity="center_horizontal|clip_vertical"
+               android:layout_margin="8dp"
+               android:orientation="vertical"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+               <ImageView
+                   android:src="@drawable/hanquoc"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:textSize="18dp"
+                   android:textColor="@color/colorPrimaryDark"
+                   android:textAlignment="center"
+                   android:text="Món Hàn Quốc"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+           </LinearLayout>
+       </androidx.cardview.widget.CardView>
+       <androidx.cardview.widget.CardView
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="8dp"
+           android:layout_margin="8dp"
+           android:layout_width="0dp"
+           android:layout_height="0dp">
+           <LinearLayout
+               android:layout_gravity="center_horizontal|clip_vertical"
+               android:layout_margin="8dp"
+               android:orientation="vertical"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+               <ImageView
+                   android:src="@drawable/trungquoc"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+
+                   android:textSize="18dp"
+                   android:textColor="@color/colorPrimaryDark"
+                   android:textAlignment="center"
+                   android:text="Món Trung Quốc"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+           </LinearLayout>
+       </androidx.cardview.widget.CardView>
+       <androidx.cardview.widget.CardView
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="8dp"
+           android:layout_margin="8dp"
+           android:layout_width="0dp"
+           android:layout_height="0dp">
+           <LinearLayout
+               android:layout_gravity="center_horizontal|clip_vertical"
+               android:layout_margin="8dp"
+               android:orientation="vertical"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+               <ImageView
+                   android:src="@drawable/ando"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:layout_marginLeft="15dp"
+                   android:textSize="18dp"
+                   android:textColor="@color/colorPrimaryDark"
+                   android:textAlignment="center"
+                   android:text="Món Ấn Độ"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+           </LinearLayout>
+       </androidx.cardview.widget.CardView>
+       <androidx.cardview.widget.CardView
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="8dp"
+           android:layout_margin="8dp"
+           android:layout_width="0dp"
+           android:layout_height="0dp">
+           <LinearLayout
+               android:layout_gravity="center_horizontal|clip_vertical"
+               android:layout_margin="8dp"
+               android:orientation="vertical"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+               <ImageView
+                   android:src="@drawable/vietnam"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:layout_marginLeft="5dp"
+                   android:textSize="18dp"
+                   android:textColor="@color/colorPrimaryDark"
+                   android:textAlignment="center"
+                   android:text="Món Việt Nam"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+           </LinearLayout>
+       </androidx.cardview.widget.CardView>
+       <androidx.cardview.widget.CardView
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="8dp"
+           android:layout_margin="8dp"
+           android:layout_width="0dp"
+           android:layout_height="0dp">
+           <LinearLayout
+               android:layout_gravity="center_horizontal|clip_vertical"
+               android:layout_margin="8dp"
+               android:orientation="vertical"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+               <ImageView
+                   android:src="@drawable/y"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:layout_marginLeft="30dp"
+                   android:textSize="18dp"
+                   android:textColor="@color/colorPrimaryDark"
+                   android:textAlignment="center"
+                   android:text="Món Ý"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+           </LinearLayout>
+       </androidx.cardview.widget.CardView>
+   </GridLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_nav">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</LinearLayout>

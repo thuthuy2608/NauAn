@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DayNauAn</string>
+    <string name="manhinhchao">Nấu ăn mỗi ngày</string>
+    <string name="chaomung">Chào mừng!</string>
+    <string name="ratvui">Rất vui được gặp lại bạn!</string>
+    <string name="login">Đăng nhập</string>
+    <string name="Xinchao">Xin chào!</string>
+    <string name="mail">hoangthithuthuy2806@gamail.com</string>
+    <string name="matkhau">* * * * * * * *</string>
+    <string name="monan">Món Ngon Mỗi Ngày</string>
+
+</resources>
